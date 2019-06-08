@@ -1,11 +1,6 @@
 import React from "react";
 
-export const SomePageComponent = ({
-  currentUser,
-  setCurrentUser,
-  count,
-  setCount
-}) => {
+export default ({ currentUser, setCurrentUser, count, setCount }) => {
   return (
     <>
       <button onClick={() => setCurrentUser(currentUser ? 0 : 123)}>
