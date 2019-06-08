@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "260cd018ac9a030d7b32c8f9e517b3ed",
+    "revision": "6441b006d75f05433eb12d2669e3b4a4",
     "url": "/metre-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metre-react/static/css/2.23cf21a5.chunk.css"
   },
   {
-    "revision": "35ab314e11cd60d61b1d",
+    "revision": "a234d8506d4059e6be19",
     "url": "/metre-react/static/css/main.c6b16ca8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metre-react/static/js/2.a9bc1643.chunk.js"
   },
   {
-    "revision": "35ab314e11cd60d61b1d",
-    "url": "/metre-react/static/js/main.a8946eca.chunk.js"
+    "revision": "a234d8506d4059e6be19",
+    "url": "/metre-react/static/js/main.81c3d2a7.chunk.js"
   },
   {
     "revision": "39930cc3201a78e21bfc",
