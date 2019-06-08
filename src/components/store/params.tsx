@@ -21,13 +21,13 @@ export const getValue = (history, name) => {
   return value;
 };
 
-export const setValue = (history, name, merge) => {
+export const setValue = (history, name, data) => {
   const search = queryString.parse(_.get(history, "location.search"));
   const _packed = _.get(search, name);
   const value = _packed ? jsonpack.unpack(_packed) : {};
   const newSearch = queryString.stringify({
     ...search,
-    [name]: jsonpack.pack(_.defaults(merge, value))
+    [name]: jsonpack.pack(_.defaults(data, value))
   });
   history.push({
     search: "?" + newSearch
@@ -50,8 +50,8 @@ export const Component = ({
   return (
     <ResultContext.Provider
       value={{
-        value: () => getValue(history, name),
-        set: merge => setValue(history, name, merge)
+        get: () => getValue(history, name),
+        set: data => setValue(history, name, data)
       }}
     >
       {children}

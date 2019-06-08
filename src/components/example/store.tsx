@@ -4,7 +4,7 @@ import Example from "./view";
 import { Context } from "../store";
 
 export default () => {
-  const { value: get, set } = useContext(Context);
+  const { get, set } = useContext(Context);
   const value = get();
 
   useEffect(() => {

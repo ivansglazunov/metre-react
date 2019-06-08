@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import withTracker from "../../simulate";
+import { withTracker } from "../../components/fake-meteor";
 
 import { Example } from "../../components/example";
 

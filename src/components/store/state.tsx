@@ -9,7 +9,7 @@ export const Provider = ({ context, default: def = {}, children }: IProps) => {
   const ResultContext = context || Context;
   return (
     <ResultContext.Provider
-      value={{ value: () => value, set: merge => set({ ...merge }) }}
+      value={{ get: () => value, set: data => set({ ...data }) }}
     >
       {children}
     </ResultContext.Provider>

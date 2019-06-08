@@ -7,7 +7,7 @@ export default () => {
   const [value, set] = useState({});
 
   return (
-    <Store value={() => value} set={data => set(data)}>
+    <Store get={() => value} set={data => set(data)}>
       <StoreExample />
     </Store>
   );

@@ -5,17 +5,21 @@ import State from "./state";
 
 export interface IProps {
   context?: any;
-  children?: any;
   default?: any;
+
+  children: JSX.Element;
 
   [key: string]: any;
 }
 
-export interface IValue {
-  value: any;
-  set: (merge: any) => void;
+export interface IStore {
+  get: () => any;
+  set: (data: any) => void;
 }
 
-export const Context = React.createContext<any>({});
+export const Context = React.createContext<IStore>({
+  get: () => ({}),
+  set: () => undefined
+});
 
 export { Params, Props, State };

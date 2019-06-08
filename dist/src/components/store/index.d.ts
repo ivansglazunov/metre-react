@@ -1,3 +1,6 @@
+import Params from "./params";
+import Props from "./props";
+import State from "./state";
 export interface IProps {
   context?: any;
   children?: any;
@@ -9,3 +12,4 @@ export interface IValue {
   set: (merge: any) => void;
 }
 export declare const Context: any;
+export { Params, Props, State };
