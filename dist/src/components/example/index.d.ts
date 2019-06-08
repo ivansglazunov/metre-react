@@ -1,5 +1,5 @@
 /// <reference types="react" />
-export declare const SomePageComponent: (
+declare const _default: (
   {
     currentUser,
     setCurrentUser,
@@ -12,3 +12,4 @@ export declare const SomePageComponent: (
     setCount: any;
   }
 ) => JSX.Element;
+export default _default;

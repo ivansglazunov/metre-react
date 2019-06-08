@@ -6,7 +6,7 @@ var __importDefault =
   };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
-exports.SomePageComponent = function(_a) {
+exports.default = function(_a) {
   var currentUser = _a.currentUser,
     setCurrentUser = _a.setCurrentUser,
     count = _a.count,
@@ -37,4 +37,4 @@ exports.SomePageComponent = function(_a) {
 };
 //# sourceMappingURL=index.js.map
 
-//# sourceMappingURL={"version":3,"file":"index.js","sourceRoot":"","sources":["index.tsx"],"names":[],"mappings":";;;;;AAAA,gDAA0B;AAEb,QAAA,iBAAiB,GAAG,UAAC,EAKjC;QAJC,4BAAW,EACX,kCAAc,EACd,gBAAK,EACL,sBAAQ;IAER,OAAO,CACL;QACE,0CAAQ,OAAO,EAAE,cAAM,OAAA,cAAc,CAAC,WAAW,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,EAArC,CAAqC;;YAC5C,WAAW,CAClB;QACT,0CAAQ,OAAO,EAAE,cAAM,OAAA,QAAQ,CAAC,KAAK,GAAG,CAAC,CAAC,EAAnB,CAAmB,IAAG,KAAK,CAAU,CAC3D,CACJ,CAAC;AACJ,CAAC,CAAC"}
+//# sourceMappingURL={"version":3,"file":"index.js","sourceRoot":"","sources":["index.tsx"],"names":[],"mappings":";;;;;AAAA,gDAA0B;AAE1B,mBAAe,UAAC,EAAgD;QAA9C,4BAAW,EAAE,kCAAc,EAAE,gBAAK,EAAE,sBAAQ;IAC5D,OAAO,CACL;QACE,0CAAQ,OAAO,EAAE,cAAM,OAAA,cAAc,CAAC,WAAW,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,EAArC,CAAqC;;YAC5C,WAAW,CAClB;QACT,0CAAQ,OAAO,EAAE,cAAM,OAAA,QAAQ,CAAC,KAAK,GAAG,CAAC,CAAC,EAAnB,CAAmB,IAAG,KAAK,CAAU,CAC3D,CACJ,CAAC;AACJ,CAAC,EAAC"}
