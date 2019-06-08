@@ -10,17 +10,15 @@ import { ThemeProvider } from "@material-ui/styles";
 import Routes from "./routes";
 import theme from "./theme";
 
-if (!localStorage.noClient) {
-  ReactDOM.hydrate(
-    <ThemeProvider theme={theme}>
-      <BrowserRouter>
-        <Routes />
-      </BrowserRouter>
-    </ThemeProvider>,
-    document.getElementById("root"),
-    () => {
-      const ssStyles = document.getElementById("jss-server-side");
-      if (ssStyles) ssStyles.parentNode.removeChild(ssStyles);
-    }
-  );
-}
+ReactDOM.hydrate(
+  <ThemeProvider theme={theme}>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
+  </ThemeProvider>,
+  document.getElementById("root"),
+  () => {
+    const ssStyles = document.getElementById("jss-server-side");
+    if (ssStyles) ssStyles.parentNode.removeChild(ssStyles);
+  }
+);

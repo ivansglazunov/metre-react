@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import withTracker from "../../simulate";
 
-export const SomePageComponent: any = ({
+export const SomePageComponent = ({
   currentUser,
   setCurrentUser,
   count,

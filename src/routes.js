@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, Switch } from "react-router";
 
-import Analitics from './analitics';
+import Analitics from "./analitics";
 
 import "./styles.css";
 import "normalize.css";
 
-import Example from "./pages/example/index.tsx";
+import Example from "./pages/example/index";
 
 export const routes = (
   <Switch>
@@ -18,7 +18,7 @@ export default class Routes extends React.Component {
   render() {
     return (
       <>
-        <Analitics/>
+        <Analitics />
         {routes}
       </>
     );
