@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 
-import Example from ".";
+import Example from "./view";
 import { Context } from "../store";
 
 export default () => {
