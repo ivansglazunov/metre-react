@@ -1,21 +1,7 @@
 import React, { useState } from "react";
 import withTracker from "../../simulate";
 
-export const SomePageComponent = ({
-  currentUser,
-  setCurrentUser,
-  count,
-  setCount
-}) => {
-  return (
-    <>
-      <button onClick={() => setCurrentUser(currentUser ? 0 : 123)}>
-        currentUser: {currentUser}
-      </button>
-      <button onClick={() => setCount(count + 1)}>{count}</button>
-    </>
-  );
-};
+import { SomePageComponent } from "../../components/example";
 
 export default withTracker(() => {
   const [currentUser, setCurrentUser] = useState(0);
