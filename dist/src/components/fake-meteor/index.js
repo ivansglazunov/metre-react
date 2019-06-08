@@ -21,6 +21,8 @@ exports.withTracker = with_tracker_1.default;
 var use_method_1 = __importStar(require("./use-method"));
 exports.useMethod = use_method_1.default;
 exports.UseMethodContext = use_method_1.Context;
+var methods_tracker_1 = __importDefault(require("./methods-tracker"));
+exports.MethodsTracker = methods_tracker_1.default;
 //# sourceMappingURL=index.js.map
 
-//# sourceMappingURL={"version":3,"file":"index.js","sourceRoot":"","sources":["index.tsx"],"names":[],"mappings":";;;;;;;;;;;;AAAA,gEAAyC;AAOhC,sBAPF,sBAAW,CAOE;AANpB,yDAAsE;AAMhD,oBANf,oBAAS,CAMe;AAAE,2BANF,oBAAgB,CAME"}
+//# sourceMappingURL={"version":3,"file":"index.js","sourceRoot":"","sources":["index.tsx"],"names":[],"mappings":";;;;;;;;;;;;AAAA,gEAAyC;AAsBhC,sBAtBF,sBAAW,CAsBE;AArBpB,yDAAsE;AAqBhD,oBArBf,oBAAS,CAqBe;AAAE,2BArBF,oBAAgB,CAqBE;AApBjD,sEAA+C;AAoBI,yBApB5C,yBAAc,CAoB4C"}

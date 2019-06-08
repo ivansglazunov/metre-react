@@ -25,9 +25,8 @@ const Component = () => {
       <div>
         simulation of meteor calls, with 1s delay of response and random errors
       </div>
-      <div>error</div>
-      {JSON.stringify(error)};<div>result</div>
-      {JSON.stringify(result)};
+      <div>error: {error}</div>
+      <div>result: {result}</div>
       <div>
         <button onClick={() => setTime(time + 1)}>{time}++</button>
       </div>
