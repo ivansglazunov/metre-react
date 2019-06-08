@@ -8,11 +8,7 @@ const Tracked = withTracker<any, any>(({ tracker, ...props }) => {
   return <Component {...props} />;
 });
 
-export default ({
-  methods: Methods,
-  tracker,
-  ...props
-}: IMethodsTrackerProps<any>) => {
+export default ({ Methods, tracker, ...props }: IMethodsTrackerProps<any>) => {
   return (
     <Methods
       {...props}

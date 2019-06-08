@@ -52,7 +52,7 @@ export default () => {
   return (
     <UseMethodContext.Provider value={call}>
       <MethodsTracker
-        methods={Methods}
+        Methods={Methods}
         tracker={tracker}
         render={render}
         x={x}

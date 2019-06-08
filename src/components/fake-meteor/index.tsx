@@ -14,7 +14,7 @@ export interface ITrackerResults {
 }
 
 export interface IMethodsTrackerProps<IProps> {
-  methods: React.ComponentType<any>;
+  Methods: React.ComponentType<any>;
   tracker: (props: IProps) => ITrackerResults;
   render: React.ComponentType<any>;
   [prop: string]: any;
