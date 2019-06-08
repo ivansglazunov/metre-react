@@ -12,7 +12,14 @@ var props_1 = __importDefault(require("./props"));
 exports.Props = props_1.default;
 var state_1 = __importDefault(require("./state"));
 exports.State = state_1.default;
-exports.Context = react_1.default.createContext({});
+exports.Context = react_1.default.createContext({
+  get: function() {
+    return {};
+  },
+  set: function() {
+    return undefined;
+  }
+});
 //# sourceMappingURL=index.js.map
 
-//# sourceMappingURL={"version":3,"file":"index.js","sourceRoot":"","sources":["index.tsx"],"names":[],"mappings":";;;;;AAAA,gDAA0B;AAC1B,oDAA8B;AAmBrB,iBAnBF,gBAAM,CAmBE;AAlBf,kDAA4B;AAkBX,gBAlBV,eAAK,CAkBU;AAjBtB,kDAA4B;AAiBJ,gBAjBjB,eAAK,CAiBiB;AAFhB,QAAA,OAAO,GAAG,eAAK,CAAC,aAAa,CAAM,EAAE,CAAC,CAAC"}
+//# sourceMappingURL={"version":3,"file":"index.js","sourceRoot":"","sources":["index.tsx"],"names":[],"mappings":";;;;;AAAA,gDAA0B;AAC1B,oDAA8B;AAuBrB,iBAvBF,gBAAM,CAuBE;AAtBf,kDAA4B;AAsBX,gBAtBV,eAAK,CAsBU;AArBtB,kDAA4B;AAqBJ,gBArBjB,eAAK,CAqBiB;AALhB,QAAA,OAAO,GAAG,eAAK,CAAC,aAAa,CAAS;IACjD,GAAG,EAAE,cAAM,OAAA,CAAC,EAAE,CAAC,EAAJ,CAAI;IACf,GAAG,EAAE,cAAM,OAAA,SAAS,EAAT,CAAS;CACrB,CAAC,CAAC"}

@@ -10,6 +10,8 @@ import {
   IContext,
   IViews,
   IPaginationProps
-} from "./";
+} from ".";
 
-export default ({ storage, views }: IPaginationProps<any>) => {};
+export default ({ storage, views }: IPaginationProps<any>) => {
+  return null;
+};

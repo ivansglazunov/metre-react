@@ -31,5 +31,5 @@ export default (
     }
   }, [name, args, prevName, setPrevName, prevArgs, setPrevArgs, call]);
 
-  return [error, result];
+  return [result, error];
 };

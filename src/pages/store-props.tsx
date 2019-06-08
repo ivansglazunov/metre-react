@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import Store from "../../components/store/props";
-import { StoreExample } from "../../components/example";
+import Store from "../components/store/props";
+import { StoreExample } from "../components/example";
 
 export default () => {
   const [value, set] = useState({});

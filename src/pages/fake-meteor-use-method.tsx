@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { random } from "lodash";
 
-import { UseMethodContext, useMethod } from "../../components/fake-meteor";
+import { UseMethodContext, useMethod } from "../components/fake-meteor";
 
 let i = 0;
 setInterval(() => i++, 1000);
@@ -18,7 +18,7 @@ const call = (name, ...args) => {
 
 const Component = () => {
   const [time, setTime] = useState(0);
-  const [error, result] = useMethod("test", [time]);
+  const [result, error] = useMethod("test", [time]);
 
   return (
     <div>

@@ -6,12 +6,14 @@ import Analitics from "./analitics";
 import "./styles.css";
 import "normalize.css";
 
-import Example from "./pages/example/index";
-import storeParams from "./pages/example/store-params";
-import storeProps from "./pages/example/store-props";
-import storeState from "./pages/example/store-state";
-import fakeMeteor from "./pages/example/fake-meteor-use-method";
-import withTracker from "./pages/example/fake-meteor-with-tracker";
+import index from "./pages/index";
+import storeParams from "./pages/store-params";
+import storeProps from "./pages/store-props";
+import storeState from "./pages/store-state";
+import fakeMeteor from "./pages/fake-meteor-use-method";
+import withTracker from "./pages/fake-meteor-with-tracker";
+import example from "./pages/example";
+import fakeMeteorMethodsTracker from "./pages/fake-meteor-methods-tracker";
 
 export const routes = (
   <Switch>
@@ -20,7 +22,12 @@ export const routes = (
     <Route path="/store-state" component={storeState} />
     <Route path="/fake-meteor-use-method" component={fakeMeteor} />
     <Route path="/fake-meteor-with-tracker" component={withTracker} />
-    <Route component={Example} />
+    <Route
+      path="/fake-meteor-methods-tracker"
+      component={fakeMeteorMethodsTracker}
+    />
+    <Route path="/example" component={example} />
+    <Route component={index} />
   </Switch>
 );
 

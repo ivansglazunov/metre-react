@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import { withTracker } from "../../components/fake-meteor";
+import { withTracker } from "../components/fake-meteor";
 
 export default withTracker(() => {
   const [i, setI] = useState(0);

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { withTracker } from "../../components/fake-meteor";
+import { withTracker } from "../components/fake-meteor";
 
-import { Example } from "../../components/example";
+import { Example } from "../components/example";
 
 export default withTracker(() => {
   const [currentUser, setCurrentUser] = useState(0);

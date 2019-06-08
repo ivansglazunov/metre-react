@@ -46,7 +46,9 @@ export const Component = ({
   useEffect(() => {
     const value = getValue(history, name);
     setValue(history, name, { ...def, ...value });
-  });
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <ResultContext.Provider
       value={{

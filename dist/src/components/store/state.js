@@ -41,11 +41,11 @@ exports.Provider = function(_a) {
     ResultContext.Provider,
     {
       value: {
-        value: function() {
+        get: function() {
           return value;
         },
-        set: function(merge) {
-          return set(__assign({}, merge));
+        set: function(data) {
+          return set(__assign({}, data));
         }
       }
     },
@@ -55,4 +55,4 @@ exports.Provider = function(_a) {
 exports.default = exports.Provider;
 //# sourceMappingURL=state.js.map
 
-//# sourceMappingURL={"version":3,"file":"state.js","sourceRoot":"","sources":["state.tsx"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;AAAA,6CAAwC;AAExC,uBAAmD;AAItC,QAAA,QAAQ,GAAG,UAAC,EAAgD;QAA9C,oBAAO,EAAE,eAAiB,EAAjB,6BAAiB,EAAE,sBAAQ;IACvD,IAAA,0BAA4B,EAA3B,aAAK,EAAE,WAAoB,CAAC;IACnC,IAAM,aAAa,GAAG,OAAO,IAAI,UAAO,CAAC;IACzC,OAAO,CACL,8BAAC,aAAa,CAAC,QAAQ,IACrB,KAAK,EAAE,EAAE,KAAK,EAAE,cAAM,OAAA,KAAK,EAAL,CAAK,EAAE,GAAG,EAAE,UAAA,KAAK,IAAI,OAAA,GAAG,cAAM,KAAK,EAAG,EAAjB,CAAiB,EAAE,IAE7D,QAAQ,CACc,CAC1B,CAAC;AACJ,CAAC,CAAC;AAEF,kBAAe,gBAAQ,CAAC"}
+//# sourceMappingURL={"version":3,"file":"state.js","sourceRoot":"","sources":["state.tsx"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;AAAA,6CAAwC;AAExC,uBAAmD;AAItC,QAAA,QAAQ,GAAG,UAAC,EAAgD;QAA9C,oBAAO,EAAE,eAAiB,EAAjB,6BAAiB,EAAE,sBAAQ;IACvD,IAAA,0BAA4B,EAA3B,aAAK,EAAE,WAAoB,CAAC;IACnC,IAAM,aAAa,GAAG,OAAO,IAAI,UAAO,CAAC;IACzC,OAAO,CACL,8BAAC,aAAa,CAAC,QAAQ,IACrB,KAAK,EAAE,EAAE,GAAG,EAAE,cAAM,OAAA,KAAK,EAAL,CAAK,EAAE,GAAG,EAAE,UAAA,IAAI,IAAI,OAAA,GAAG,cAAM,IAAI,EAAG,EAAhB,CAAgB,EAAE,IAEzD,QAAQ,CACc,CAC1B,CAAC;AACJ,CAAC,CAAC;AAEF,kBAAe,gBAAQ,CAAC"}
