@@ -4,7 +4,7 @@ node_js:
   - "8"
 
 script:
-  - npm run deploy -- --r $DEPLY_URL
+  - npm run deploy -- -r $DEPLY_URL
 
 cache:
   directories:
