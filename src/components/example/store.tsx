@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 
-import Example from "../../../components/example";
-import { Context } from "../../../components/store";
+import Example from ".";
+import { Context } from "../store";
 
 export default () => {
   const { value: get, set } = useContext(Context);

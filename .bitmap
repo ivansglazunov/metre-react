@@ -14,5 +14,33 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "ivansglazunov.metre-react/store@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/components/store/index.tsx",
+                "test": false,
+                "name": "index.tsx"
+            },
+            {
+                "relativePath": "src/components/store/params.tsx",
+                "test": false,
+                "name": "params.tsx"
+            },
+            {
+                "relativePath": "src/components/store/props.tsx",
+                "test": false,
+                "name": "props.tsx"
+            },
+            {
+                "relativePath": "src/components/store/state.tsx",
+                "test": false,
+                "name": "state.tsx"
+            }
+        ],
+        "mainFile": "src/components/store/index.tsx",
+        "trackDir": "src/components/store",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "version": "14.1.3"
 }
