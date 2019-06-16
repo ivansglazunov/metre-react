@@ -87,7 +87,7 @@ export default withRouter(Analitics);
 export const event = action => {
   try {
     if (GA) ReactGA.event({ category: "actions", action });
-    if (YA) ya("reachGoal", action);
+    if (YM) ya("reachGoal", action);
     if (FP) ReactPixel.trackCustom(action);
   } catch (error) {
     console.error(error);
